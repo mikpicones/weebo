@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Weebo | Welcome</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Affordable and professional web design">
+    <meta name="keywords" content="web design, affordable web design, professional web design">
+    <meta name="author" content="Mikaella Picones">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Oxygen|Source+Sans+Pro" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Noto+Sans|Patua+One"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="header">
+      <h1 lang="ja-jp" class="logo"><span class="highlight">ミカ。</span>ミカ。</h1> 
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+      <ul class="menu">
+        <li class="current"><a href="index.html">Home</a></li>
+        <li><a href="featured.html">Featured</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="mailto:mikaellaspicones@gmail.com">Contact</a></li>
+      </ul>
+    </header>
+
+    <section id="showcase">
+    <div class=v-header>
+      <div class="fullscreen-video-wrap">
+        <video src="img/weebo.mp4" autoplay="true" loop="true" muted></video>
+        </video>
+        </div>
+        <div class="header-overlay"></div>
+        <div class="header-content text-md-center">
+          <h1 lang="ja-jp">ようこそ、オタクさん。</h1>
+          <p>Sharing my favorite anime series to my fellow anime lovers</p>
+          <a class="button_2" href="featured.html">VIEW FEATURED SERIES</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="fixed-bottom">
+      <div class="container">
+        <div class="row">
+         <div class="col-lg-6 col-12">
+          <p>Mikaella Picones &copy; All Rights Reserved 2018</p>
+         </div>
+         <div class="col-lg-6 col-12">
+            <p class="float-right ">
+              <a href="https://www.facebook.com/mika.picones" class="p-4">Facebook</a>
+              <a href="https://www.linkedin.com/in/mikaella-picones-4972b9144/" class="p-4">LinkedIn</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+        window.sr = ScrollReveal();
+        sr.reveal('.header-content', {
+          duration: 3000,
+          origin:'bottom',
+          mobile: true
+        });
+        sr.reveal('.button_2', {
+          duration: 2000,
+          delay: 500,
+          origin:'bottom',
+          mobile: true
+        });
+    </script>
+
+  </body>
+</html>
