@@ -572,12 +572,24 @@ footer p {
   .col-xs-12,
   .story {
     padding-left: 4px !important;
+    padding-right: 10px !important;
   }
 
   .info-left,
   .info-right {
     height: auto;
-    width: 100%;
+    width: auto;
+  }
+
+  .info-left {
+    margin-top: 20px;
+    padding: 5px;
+  }
+
+  .info-left p,
+  .info-left h5,
+  .info-left a {
+    margin-right: 10%;
   }
 
   footer p {
@@ -603,13 +615,10 @@ footer p {
 
   .poster {
     margin-top: 15vh;
-    width: 400px;
+    width: 380px;
     height: 200px;
   }
 
-  .info-left a {
-    margin-right: 0;
-  }
   .main {
     height: 200px;
     position: relative;
